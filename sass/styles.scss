@@ -1,0 +1,152 @@
+/*
+Jetty
+http://mikuru.tw
+http://plurk.com/kcyeu
+January 26, 2015
+*/
+
+@import 'compass';
+
+$trans-white: rgba(255, 255, 255, 0.5);
+
+body {
+	background: fixed no-repeat url(https://i.imgur.com/IUwdm3W.jpg) #4879b1;
+	background-position-x: 50%;
+	background-position-y: 50%;
+	font-family: "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif!important;
+}
+
+#top_bar a,
+#page_title,
+#top_login a {
+	color: white !important;
+}
+
+#top_bar .content a#edit_link {
+	background: black;
+}
+
+#top_login {
+	margin-top: 0;
+}
+
+#timeline_holder,
+#bottom_line {
+	background: none;
+	border: none;
+}
+
+#updater {
+	border: medium none;
+	background: none repeat scroll 0% 0% $trans-white;
+	padding: 4px 8px;
+	top: 356px;
+	@include border-radius(4px);
+}
+
+#timeline_cnt,
+#timeline_bg,
+#timeline_fg {
+}
+
+#time_show {
+	border: none;
+	background: white;
+	color: black !important;
+	@include border-radius(4px);
+}
+
+#dynamic_logo,
+#creature {
+	opacity: 0.5;
+}
+
+#filter_tab a.filter_selected {
+	text-decoration: none;
+	border: none !important;
+	background: rgba(0, 0, 0, .5);
+	color: white;
+	font-weight: bold;
+	@include border-radius(4px);
+	padding: 4px 8px !important;
+}
+
+#filter_tab .off_tab {
+	background: $trans-white;
+	border: none !important;
+	color: #666;
+	font-weight: bold;
+	@include border-radius(4px);
+	padding: 4px 8px !important;
+}
+
+.plurkaction {
+	background: $trans-white;
+	border: none !important;
+	@include border-radius(4px);
+	//border-radius: 5px;
+}
+#toggle_tab li.tt_selected,
+#plurk-dashboard,
+#more_options_link {
+	background: $trans-white;
+	border: none;
+	@include border-radius(4px);
+}
+
+#dash-stats table td {
+	color: red;
+}
+
+#plurk-dashboard a {
+	color: red;
+}
+
+#plurk-dashboard {
+	line-height: 1em;
+}
+
+.plurk_cnt {
+	background: white;
+	border: none;
+	box-shadow: 0 0 1px 1px #eee;
+}
+
+.plurk_cnt.new2 {
+	background: white;
+	border: 1px solid red;
+}
+
+.new .response_count {
+	background-color: rgba(255, 0, 0, .8);
+	color: white !important;
+	padding: 2px 4px;
+}
+
+.response_count {
+	background-color: $trans-white;
+	padding: 2px 4px;
+}
+
+#filter_tab {
+	margin: 0;
+}
+
+.div_inner,
+.day_bg .div_inner {
+	opacity: 0.1;
+}
+
+.bottom_start,
+.bottom_end {
+	color: white !important;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+.day_start .div_bottom,
+.response_count,
+.day_start .bottom_start {
+    color: black !important;
+    text-shadow: none;
+}

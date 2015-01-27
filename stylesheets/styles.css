@@ -1,0 +1,74 @@
+/*
+Jetty
+http://mikuru.tw
+http://plurk.com/kcyeu
+January 26, 2015
+*/
+/* line 12, ../sass/styles.scss */
+body { background: fixed no-repeat url(https://i.imgur.com/IUwdm3W.jpg) #4879b1; background-position-x: 50%; background-position-y: 50%; font-family: "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif !important; }
+
+/* line 19, ../sass/styles.scss */
+#top_bar a, #page_title, #top_login a { color: white !important; }
+
+/* line 25, ../sass/styles.scss */
+#top_bar .content a#edit_link { background: black; }
+
+/* line 29, ../sass/styles.scss */
+#top_login { margin-top: 0; }
+
+/* line 33, ../sass/styles.scss */
+#timeline_holder, #bottom_line { background: none; border: none; }
+
+/* line 39, ../sass/styles.scss */
+#updater { border: medium none; background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5); padding: 4px 8px; top: 356px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* line 52, ../sass/styles.scss */
+#time_show { border: none; background: white; color: black !important; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* line 59, ../sass/styles.scss */
+#dynamic_logo, #creature { opacity: 0.5; }
+
+/* line 64, ../sass/styles.scss */
+#filter_tab a.filter_selected { text-decoration: none; border: none !important; background: rgba(0, 0, 0, 0.5); color: white; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding: 4px 8px !important; }
+
+/* line 74, ../sass/styles.scss */
+#filter_tab .off_tab { background: rgba(255, 255, 255, 0.5); border: none !important; color: #666; font-weight: bold; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; padding: 4px 8px !important; }
+
+/* line 83, ../sass/styles.scss */
+.plurkaction { background: rgba(255, 255, 255, 0.5); border: none !important; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* line 89, ../sass/styles.scss */
+#toggle_tab li.tt_selected, #plurk-dashboard, #more_options_link { background: rgba(255, 255, 255, 0.5); border: none; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* line 97, ../sass/styles.scss */
+#dash-stats table td { color: red; }
+
+/* line 101, ../sass/styles.scss */
+#plurk-dashboard a { color: red; }
+
+/* line 105, ../sass/styles.scss */
+#plurk-dashboard { line-height: 1em; }
+
+/* line 109, ../sass/styles.scss */
+.plurk_cnt { background: white; border: none; box-shadow: 0 0 1px 1px #eee; }
+
+/* line 115, ../sass/styles.scss */
+.plurk_cnt.new2 { background: white; border: 1px solid red; }
+
+/* line 120, ../sass/styles.scss */
+.new .response_count { background-color: rgba(255, 0, 0, 0.8); color: white !important; padding: 2px 4px; }
+
+/* line 126, ../sass/styles.scss */
+.response_count { background-color: rgba(255, 255, 255, 0.5); padding: 2px 4px; }
+
+/* line 131, ../sass/styles.scss */
+#filter_tab { margin: 0; }
+
+/* line 135, ../sass/styles.scss */
+.div_inner, .day_bg .div_inner { opacity: 0.1; }
+
+/* line 140, ../sass/styles.scss */
+.bottom_start, .bottom_end { color: white !important; font-weight: bold; text-shadow: 1px 1px 1px black; }
+
+/* line 147, ../sass/styles.scss */
+.day_start .div_bottom, .response_count, .day_start .bottom_start { color: black !important; text-shadow: none; }
