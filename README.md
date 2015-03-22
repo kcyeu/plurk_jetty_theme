@@ -1,2 +1,4 @@
-# plurk_jetty_theme
-Jetty theme for Plurk social network
+# Plurk Jetty Theme
+
+Jetty theme for Plurk social network.
+
